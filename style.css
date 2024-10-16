@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E3F4FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    width: 650px;
+    margin-top: 2.5rem;
+    
+}
+
+.form-container{
+    background-color: #fff;
+    flex: 1;
+    /* border-radius: 18px; */
+    padding: 28px;
+
+}
+
+.text{
+    background: linear-gradient(to right ,#14303E,  #12303F);
+    flex: 1;
+    color: white;
+    /* border-bottom-left-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-bloc-2{
+    display: flex;
+}
+
+form #input-grp-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:20px ;
+}
+
+input{
+    padding: 7px 10px;
+    margin: 8px 2px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.radio-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+
+
+button{
+    padding:  14px 28px;
+    background-color: #CED93A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
